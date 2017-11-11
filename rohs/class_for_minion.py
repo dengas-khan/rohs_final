@@ -2,7 +2,7 @@ class class_for_minion(object):
 	
 	minion_list = list()
 	
-	def __init__(self, name=None, image_file=None, health=None, damage=None, attribute=None, stealth = False, poison = False, taunt = False, storm = False, battlecry=None, deathrattle=None, special_ability=None, passive=None):
+	def __init__(self, name=None, image_file=None, health=None, damage=None, devotiontype=None, devotioncost=None, stealth = False, poison = False, taunt = False, storm = False, battlecry=None, deathrattle=None, special_ability=None, passive=None):
 		"""deathrattle, special_ability, battlecry, and 
 		   passive all need to be functions"""
 		   
